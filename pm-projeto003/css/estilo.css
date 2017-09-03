@@ -1,0 +1,117 @@
+body {
+    background-color: #745cc1;
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;    
+    margin: 0 20px 0 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.formulario input {
+    margin-bottom: 40px;
+    width: 247px;
+    background-color: #745cc1;
+    border: none;
+    border-bottom: 1px solid #ffffff;  
+    color: #ffffff;  
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 40 30 0 30;
+}
+.formulario form {
+    margin: 0;
+}
+
+.formulario input:last-of-type {
+    margin-bottom: 8px;
+}
+
+::-webkit-input-placeholder {
+    color: #ffffff;
+    
+ }
+ :-moz-placeholder {
+    color: #ffffff;
+ }
+ ::-moz-placeholder {
+    color: #ffffff;
+ }
+ :-ms-input-placeholder {
+  color: #ffffff;
+ }
+
+ .formsenha {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;    
+    margin: 0 20px 0 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.formsenha input {
+    margin-bottom: 40px;
+    width: 247px;
+    background-color: #745cc1;
+    border: none;
+    border-bottom: 1px solid #ffffff;  
+    color: #ffffff;  
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 40 30 0 30;
+}
+.formsenha form {
+    margin: 0;
+}
+
+.formsenha input:first-of-type {
+    margin-bottom: 40px;
+}
+
+.formsenha input:last-of-type {
+    margin-bottom: 8px;
+}
+
+#login {
+    width: 247px;
+    height: 50px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+    background-color: #ffffff;
+    color: #39393a;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    
+}
+
+.senha span {
+    display: flex;
+    justify-content: center;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.senha a {
+    text-decoration: none;
+}
