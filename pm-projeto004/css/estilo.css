@@ -1,0 +1,114 @@
+/* DIV PRINCIPAL DE ALINHAMENTO */
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: #ffffff;    
+}
+
+/* DIV PARA ALINHADA PARA DIREITA */
+
+.direita {
+    float: right;
+    margin-right: 2em;
+}
+
+.direita img {
+    float: right;
+    margin-left: 100%;
+}
+
+/* DIV ALINHADA PARA DIREITA */
+
+.esquerda {
+    float: left;
+    margin-left: 2em;
+}
+
+.esquerda a {
+    float: left;
+    margin-right: 100%;
+}
+
+
+/* PROJETO CONCLUIDO */
+
+#pc {
+    width: 100%;
+    height: 150px;
+    background-color: #27ae60;
+    margin-bottom: 2px;
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#pc:hover {
+    background-color: rgba(39, 174, 95, 0.8);
+}
+
+#pc div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+}
+
+#pc a {
+    margin: 0 0 0 20;
+}
+
+/* PROJETO NÃO CONCLUIDO */
+
+#pnc {
+    width: 100%;
+    height: 150px;
+    background-color: #4a4a4a;
+    margin-bottom: 2px;
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#pnc:hover {
+    background-color: rgba(74, 73, 74, 0.8);
+}
+
+#pnc div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+}
+
+#pnc a {
+    margin: 0 0 0 20;
+}
+
+/* LINK DOS PROJETOS */
+
+#projeto div p {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;    
+    white-space: nowrap;
+}
