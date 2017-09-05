@@ -1,0 +1,61 @@
+body {
+    background-color: #9b9b9b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.relatorio {
+    width: 90%;
+    height: auto;
+    padding: 0 20px 0 20px;
+    background-color: #fff;´
+}
+
+.relatorio h1 {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.tabela{
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.tabela tr {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 0 20px 0;
+    border-bottom: 0.5px solid rgba(97,97,97,0.5);
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.tabela tr:hover {
+    background-color: #eeeeee;
+}
+
+.tabela tr:first-of-type {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+   
+}
+
+.tabela tr:last-child {
+    margin-bottom: 0;
+}
+
+input[type=checkbox] {
+    -webkit-appearance: checkbox;
+    
+    height: 15px;
+    width: 15px;
+}
