@@ -76,12 +76,17 @@ input[type=checkbox] {
 
 .proxima {
     height: 12px;
-    width: 15px;
-    margin-left: 10px;
+    width: 8px;
+    cursor: pointer;
+    margin-left: 15px;
     background-image: url("../imagem/proximo.png");
 }
 
 .voltar {
-    margin-right: 10px;
+    height: 12px;
+    width: 8px;
+    cursor: pointer;
+    margin-left: 25px;
+    margin-right: 15px;
     background-image: url("../imagem/voltar.png");
 }
