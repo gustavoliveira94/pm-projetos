@@ -31,7 +31,7 @@
 }
 
  p {
-     width: 90%;
+     width: 100%;
     color: #4a4a4a;
     font-family: Roboto;
     font-size: 20px;
@@ -96,6 +96,6 @@ img {
     }
 
     p {
-        width: 90%;
+        width: 100%;
     }
 }
