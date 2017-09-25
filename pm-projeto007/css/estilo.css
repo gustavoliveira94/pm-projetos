@@ -51,12 +51,12 @@
 }
 
 .menu li:first-of-type {
-    margin-left: 30%;
+    margin-right: 20%;
 }
 
 .menu li {
     padding: 5%;
-    margin: 0 15% 0 15%;
+    margin: 0 10% 0 10%;
     list-style: none;
 }
 
@@ -316,6 +316,7 @@
 }
 
 @media (max-width: 750px) {
+
     .conteudo {
         margin-left: 0;
         flex-direction: column;
