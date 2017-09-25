@@ -28,6 +28,7 @@
     height: 828px;
     padding: 20px 0 0 0;
     background-image: url("../imagem/fundo.png");
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
