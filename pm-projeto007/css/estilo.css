@@ -42,6 +42,7 @@
 }
 
 .menu ul {
+    width: 40%;
     color: #ffffff;
     display: flex;
     justify-content: space-between;
@@ -52,7 +53,7 @@
 }
 
 .menu li {
-    padding: 10px;
+    padding: 5%;
     margin: 0 15% 0 15%;
     list-style: none;
 }
@@ -63,11 +64,14 @@
 }
 
 .conteudo {
-    margin-left: 10%;
+    flex-direction: column;
+    justify-content: flex-start;
     color: #ffffff;
     text-align: center;
-    width: 40%;
+    margin-left: -10%;
+    width: 100%;
     margin-top: 200px;
+    white-space: nowrap;
 }
 
 .conteudo a {
@@ -104,13 +108,8 @@
     border-bottom: 3px solid #511099;
 }
 
-.imagem {
-    width: 40%;
-}
-
 .texto {
-    
-    width: 60%;
+    margin-left: 15px;
     text-align: center;
 }
 
@@ -143,6 +142,7 @@
     font-family: Lato;
     font-size: 36px;
     font-weight: 300;
+    white-space: nowrap;
 }
 
 .depoimento {
@@ -169,9 +169,9 @@
 
 .comentario p {
     display: flex;
-    align-self: center;
-    justify-content: center;
-    width: 947px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
     height: 87px;
     text-align: center;
     font-family: Lato;
@@ -238,4 +238,100 @@
     font-size: 18px;
     font-weight: 300;
     letter-spacing: 0.5px;
+}
+
+@media (max-width:600px) {
+    .menu {
+        display: none;
+    }
+
+    .topo {
+        height: 428px;
+        padding-bottom: 100px;
+    }
+
+    .conteudo {
+        margin-top: 100px;
+        margin-left: 0;      
+        flex-direction: column;
+        align-items: center;
+        white-space: nowrap;
+    }
+    
+    .conteudo h2 {
+        width: 100%;
+        font-size: 36px;
+    }
+
+    .conteudo p {
+        width: 100%;
+        font-size: 30px;
+        white-space: normal;
+    }
+
+    .conteudo a {
+        max-width: 460px;
+        width: 100%;
+        font-size: 30px;        
+    }
+
+    .sobre {
+        padding: 100px 0 50px 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagem {
+        margin-right: 0;
+    }
+
+    .imagem img {
+        width: 100%;
+    }
+
+    .texto {
+        width: 100%;
+        margin: 50px 0 0 0;
+    }
+
+    .texto a {
+        font-size: 28px;
+        white-space: nowrap;
+        width: 50%;
+        padding: 10px 15% 10px 15%;
+    }
+
+    .texto h2 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .depoimento {
+        padding-bottom: 80px;
+    }
+}
+
+@media (max-width: 750px) {
+    .conteudo {
+        margin-left: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagem {
+        margin-right: 0;
+    }
+
+    .texto {
+        margin-left: 0;
+    }
+
+    .sobre {
+        height: 800px;
+    }
+
+    .sobre .container {
+        flex-direction: column;
+        align-items: center;
+    }   
 }
