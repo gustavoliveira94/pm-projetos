@@ -192,6 +192,8 @@
     width: 100%;
     height: 424px;
     background-image: url("../imagem/fundo-convite.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     border-bottom: 3px solid #ffffff;
 }
 
