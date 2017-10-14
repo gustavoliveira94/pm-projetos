@@ -1,0 +1,63 @@
+article {
+    height: 1212px;
+    background-color: #ffffff;
+}
+
+@media (max-width:500px) {
+    article {
+        height: 1350px;
+    }
+}
+
+.resumo {
+    padding: 50px 10% 50px 10%;
+}
+
+.resumo h3 {
+    color: #d0021b;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.resumo h4 {
+    color: #3a3c40;
+    font-family: Lato;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.resumo h5 {
+    color: #3a3c40;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.resumo small {
+    color: #3a3c40;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.resumo hr {
+    margin-top: 0;
+    background-color: #d0021b;
+}
+
+.resumo i {
+    margin-right: 5px;
+}
+
+.resumo p {
+    color: #666666;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.resumo p:last-of-type {
+    margin-bottom: 70px;
+}
